@@ -6,9 +6,9 @@ import webDevelopmentTools from './data/webTools';
 
 function App() {
    return (
-      <section className="w-full min-h-screen xl:bg-[linear-gradient(90deg,rgba(255,255,255,1)_0%,rgba(255,255,255,1)_50%,rgba(8,31,66,1)_100%)]">
+      <section className="w-full min-h-screen lg:bg-[linear-gradient(90deg,rgba(255,255,255,1)_0%,rgba(255,255,255,1)_50%,rgba(8,31,66,1)_100%)]">
          <div className="max-w-7xl mx-auto h-full py-4 px-4 xl:px-0">
-            <div className="grid xl:grid-cols-2 gap-4 xl:gap-0">
+            <div className="grid lg:grid-cols-2 gap-4 lg:gap-0">
                <div>
                   <img src="./logo.jpeg" className="w-20" />
                   <h1 className="text-indigo-700 font-bold text-5xl pl-20">
@@ -21,7 +21,7 @@ function App() {
                   <h1 className="text-black uppercase font-bold text-2xl py-4">
                      We provide services
                   </h1>
-                  <div className="grid xl:grid-cols-2 gap-3 gap-y-8">
+                  <div className="grid lg:grid-cols-2 gap-3 gap-y-8">
                      <Services
                         src={'./coding.png'}
                         title={'Website development'}
@@ -31,7 +31,7 @@ function App() {
                         title={'Mobile App Development'}
                      />
                      <Services
-                        src={'./../public/coding3.png'}
+                        src={'./coding3.png'}
                         title={'Desktop App Development'}
                      />
                      <Services
@@ -58,11 +58,11 @@ function App() {
                   />
                </div>
             </div>
-            <section className='px-2 xl:px-0'>
+            <section className="px-2 xl:px-0">
                <h1 className="text-black uppercase font-bold text-2xl py-4">
                   Tools We Use
                </h1>
-               <div className="grid xl:grid-cols-2 gap-4 gap-y-8">
+               <div className="grid lg:grid-cols-2 gap-4 gap-y-8">
                   <div>
                      <Services
                         src={'./coding.png'}
@@ -97,7 +97,7 @@ function App() {
                   </div>
                   <div>
                      <Services
-                        src={'./../public/coding3.png'}
+                        src={'./coding3.png'}
                         title={'Desktop App Development'}
                      />
                      <div>
@@ -149,10 +149,10 @@ function App() {
                </div>
                <div className="flex items-center justify-start">
                   <div className="pr-2">
-                     <h2 className="text-base font-medium text-end xl:text-white">
+                     <h2 className="text-base font-medium text-end lg:text-white">
                         Visit Our Website
                      </h2>
-                     <h2 className="text-base font-medium xl:text-white">
+                     <h2 className="text-base font-medium lg:text-white">
                         www.webizoneit.com
                      </h2>
                   </div>
